@@ -1,6 +1,6 @@
 {
     "name": "pacturan/hello-world",
-    "description": "gwapong coding style",
+    "description": "Pogi coding style",
     "license": "MIT",
     "authors": [
         {
@@ -48,8 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pacturan\\HelloWorld\\Providers\\HelloWorldServiceProvider",
-                "Pacturan\\HelloWorld\\Domains\\Timesheet\\Providers\\TimesheetProvider"
+                "Pacturan\\HelloWorld\\Providers\\HelloWorldServiceProvider"
             ],
             "aliases": {
                 "HelloWorld": "Pacturan\\HelloWorld\\Facades\\HelloWorld"
