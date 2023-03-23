@@ -9,5 +9,10 @@ namespace Pacturan\HelloWorld\Services;
  */
 class HelloWorld
 {
+    public int $age = 0;
     // Build wonderful things
+    public function hello()
+    {
+        return "Hello world";
+    }
 }
