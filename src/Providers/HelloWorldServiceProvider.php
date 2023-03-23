@@ -2,7 +2,7 @@
 
 namespace Pacturan\HelloWorld\Providers;
 
-use Fligno\StarterKit\Abstracts\BaseStarterKitServiceProvider as ServiceProvider;
+use Luchavez\StarterKit\Abstracts\BaseStarterKitServiceProvider as ServiceProvider;
 use Pacturan\HelloWorld\Services\HelloWorld;
 
 /**
@@ -20,17 +20,17 @@ class HelloWorldServiceProvider extends ServiceProvider
     /**
      * @var string|null
      */
-    protected string|null $route_prefix = null;
+    protected string|null $route_prefix = 'gil';
 
     /**
      * @var bool
      */
-    protected bool $prefix_route_with_file_name = false;
+    protected bool $prefix_route_with_file_name = true;
 
     /**
      * @var bool
      */
-    protected bool $prefix_route_with_directory = false;
+    protected bool $prefix_route_with_directory = true;
 
     /**
      * Polymorphism Morph Map
