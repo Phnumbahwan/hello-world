@@ -48,8 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pacturan\\HelloWorld\\Providers\\HelloWorldServiceProvider",
-                "Pacturan\\HelloWorld\\Domains\\Timesheet\\Providers\\TimesheetProvider"
+                "Pacturan\\HelloWorld\\Providers\\HelloWorldServiceProvider"
             ],
             "aliases": {
                 "HelloWorld": "Pacturan\\HelloWorld\\Facades\\HelloWorld"
